@@ -1,0 +1,185 @@
+<!--
+Website Profesional Contoh
+Penjelasan lengkap akan ChatGPT berikan di pesan terpisah.
+--><!DOCTYPE html><html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Website Profesional Contoh</title>
+  <style>
+    /* ====================== GLOBAL STYLE ====================== */
+    :root {
+      --primary: #4e73df;
+      --dark: #1b1e23;
+      --light: #ffffff;
+      --gray: #6c757d;
+    }* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: var(--light);
+  color: var(--dark);
+  line-height: 1.6;
+}
+
+/* ====================== NAVBAR ====================== */
+nav {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: var(--dark);
+  padding: 15px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.4);
+}
+
+.logo {
+  color: var(--light);
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+
+nav ul {
+  display: flex;
+  gap: 25px;
+  list-style: none;
+}
+
+nav ul li a {
+  color: var(--light);
+  text-decoration: none;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+nav ul li a:hover {
+  color: var(--primary);
+}
+
+/* ====================== HERO SECTION ====================== */
+.hero {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 20px;
+  background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('https://images.unsplash.com/photo-1527689368864-3a821dbccc34') center/cover;
+  color: var(--light);
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 15px;
+}
+
+.hero p {
+  max-width: 600px;
+  font-size: 1.1rem;
+  margin-bottom: 30px;
+}
+
+.btn-primary {
+  padding: 12px 25px;
+  background: var(--primary);
+  border: none;
+  border-radius: 6px;
+  color: var(--light);
+  font-size: 1rem;
+  cursor: pointer;
+  transition: 0.3s;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.btn-primary:hover {
+  opacity: 0.8;
+}
+
+/* ====================== SERVICES ====================== */
+.services {
+  padding: 80px 40px;
+  text-align: center;
+}
+
+.services h2 {
+  font-size: 2.2rem;
+  margin-bottom: 40px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+}
+
+.card {
+  padding: 25px;
+  background: var(--light);
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+
+.card h3 {
+  margin-bottom: 15px;
+  font-size: 1.3rem;
+}
+
+/* ====================== FOOTER ====================== */
+footer {
+  background: var(--dark);
+  color: var(--light);
+  padding: 25px;
+  text-align: center;
+  margin-top: 60px;
+}
+
+  </style>
+</head><body>
+  <!-- NAVBAR -->
+  <nav>
+    <div class="logo">MyProfessionalWeb</div>
+    <ul>
+      <li><a href="#hero">Home</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>  <!-- HERO -->  <section class="hero" id="hero">
+    <h1>Website Profesional Kelas Coder Expert</h1>
+    <p>Contoh web modern dengan design clean, responsif, dan terlihat premium. Anda bisa mempelajari struktur HTML, styling CSS, dan behavior dengan JavaScript.</p>
+    <a href="#services" class="btn-primary">Lihat Layanan</a>
+  </section>  <!-- SERVICES -->  <section class="services" id="services">
+    <h2>Layanan Kami</h2><div class="grid">
+  <div class="card">
+    <h3>Web Development</h3>
+    <p>Membangun website cepat, responsif, dan modern.</p>
+  </div>
+  <div class="card">
+    <h3>UI / UX Design</h3>
+    <p>Desain elegan agar pengguna nyaman menggunakan aplikasi Anda.</p>
+  </div>
+  <div class="card">
+    <h3>Branding</h3>
+    <p>Logo, warna, dan identitas visual bisnis Anda.</p>
+  </div>
+</div>
+
+  </section>  <!-- FOOTER -->  <footer id="contact">
+    &copy; 2026 MyProfessionalWeb — All Rights Reserved
+  </footer></body>
+</html>
